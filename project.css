@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* background-color: #dad485; */
+}
+
+body {
+  background: linear-gradient(360deg, #ddc3f8, #ebb9d5, #bb8cee);
+  color: #321152;
+  font-size: 2rem;
+}
+
+.hero-section {
+  /* background-color: #3d1160; */
+  /* width: 75%; */
+  flex: 1;
+}
+
+.wrapper {
+  /* background: #000; */
+  width: 80%;
+  /* height: 50%; */
+  margin: 20px auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+.image {
+  /* background-color: #400842; */
+  justify-self: center;
+}
+
+.description {
+  align-self: center;
+  /* background-color: #bb8cee; */
+}
+
+span {
+  margin: 2rem 0;
+  /* outline: 1px solid red; */
+  display: inline-block;
+}
+
+.resume-btn-wrapper {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 1rem;
+}
+
+.resume-btn {
+  padding: 10px 20px;
+  color: #eedcea;
+  border-radius: 5px;
+  background-color: #400842;
+  font-size: 1.5rem;
+}
+
+h2 {
+  /* padding: 70px; */
+  margin: 10px 80px;
+  /* outline: 2px solid white; */
+  font-size: 4rem;
+
+  .number {
+    font-size: 1.5rem;
+  }
+}
+
+.container {
+  /* background-color: #fdfdfd; */
+  width: 100%;
+  display: flex;
+  gap: 0.25rem;
+  /* max-width: 90%; */
+}
+
+.divider {
+  width: 5px;
+  background: #460464;
+}
+
+.icons {
+  font-size: 3rem;
+  color: rgb(70, 31, 78);
+  justify-content: center;
+  /* align-items: center; */
+  display: flex;
+  margin: 50px;
+  gap: 1rem;
+}
+
+.logo {
+  color: #eedcea;
+  padding: 10px;
+  margin: 20px auto;
+  width: 45%;
+  height: 120px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3.5rem;
+  font-weight: bold;
+  background-color: #321152;
+}
+
+.about {
+  margin-left: -1px;
+}
+
+.fa-circle-info,
+.fa-address-book {
+  font-size: 3.5rem;
+  /* margin-left: -1px; */
+}
+
+.contact {
+  margin-bottom: 10rem;
+}
+
+.home a {
+  padding: 10px 50px;
+  background-color: #eedcea;
+  color: #6b1ab8;
+  border-radius: 5px;
+  border: none;
+  font-size: 1.5rem;
+  height: auto;
+}
+a {
+  text-decoration: none;
+  color: #321152;
+}
+
+a:hover {
+  color: #7b6b8e;
+}
+
+/* a:visited { */
+/* color: #3d1160; */
+/* } */
