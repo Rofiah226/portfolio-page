@@ -10,6 +10,7 @@ body {
   color: #400842;
   /* color: #ddc3f8; */
   font-size: 2.5rem;
+  height: 100vh;
 }
 
 .hero-section {
@@ -30,7 +31,7 @@ body {
   color: #eedcea;
   border-radius: 5px;
   background-color: #400842;
-  /* font-size: 1.5rem; */
+  font-size: 1.5rem;
 }
 .contact-info {
   margin-left: 10rem;
@@ -73,6 +74,7 @@ p {
 .divider {
   width: 5px;
   background: #460464;
+  height: 100vh;
 }
 
 .icons {
@@ -104,12 +106,15 @@ p {
   margin-left: -1px;
 }
 
-.fa-circle-info,
-.fa-address-book {
+.fa-circle-info {
   font-size: 3.5rem;
   /* margin-left: -1px; */
 }
 
+.fa-address-book {
+  font-size: 3.5rem;
+  margin-left: -19px;
+}
 .fa-x-twitter {
   margin-bottom: 5rem;
 }
@@ -141,7 +146,7 @@ label {
 }
 
 textarea {
-  width: 100%;
+  width: 80%;
   /* margin-right: 10rem; */
   margin-top: 2rem;
 }
