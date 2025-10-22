@@ -8,7 +8,8 @@
 body {
   background: linear-gradient(360deg, #ddc3f8, #ebb9d5, #bb8cee);
   color: #321152;
-  font-size: 2rem;
+  font-size: 1.5rem;
+  /* height: 100vh; */
 }
 
 .hero-section {
@@ -31,6 +32,17 @@ body {
 .image {
   /* background-color: #400842; */
   justify-self: center;
+}
+
+.live-wrapper {
+  margin-top: 60px;
+}
+
+.live-demo {
+  background-color: #400842;
+  color: #bb8cee;
+  padding: 15px;
+  border-radius: 100px;
 }
 
 .description {
@@ -70,6 +82,9 @@ h2 {
   }
 }
 
+p {
+  font-size: 1rem;
+}
 .container {
   /* background-color: #fdfdfd; */
   width: 100%;
@@ -112,12 +127,15 @@ h2 {
   margin-left: -1px;
 }
 
-.fa-circle-info,
-.fa-address-book {
+.fa-circle-info {
   font-size: 3.5rem;
   /* margin-left: -1px; */
 }
 
+.fa-address-book {
+  font-size: 3.5rem;
+  margin-left: -19px;
+}
 .contact {
   margin-bottom: 10rem;
 }

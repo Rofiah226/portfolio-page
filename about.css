@@ -8,6 +8,7 @@
 body {
   background: linear-gradient(360deg, #ddc3f8, #ebb9d5, #bb8cee);
   color: #321152;
+  /* height:100vh ; */
 }
 
 .hero-section {
@@ -32,6 +33,7 @@ body {
   color: #eedcea;
   border-radius: 5px;
   background-color: #400842;
+  font-size: 1.5rem;
 }
 
 h2 {
@@ -64,6 +66,7 @@ li {
 .divider {
   width: 5px;
   background: #460464;
+  /* height: 100vh; */
 }
 
 .icons {
@@ -95,12 +98,15 @@ li {
   margin-left: -1px;
 }
 
-.fa-circle-info,
-.fa-address-book {
+.fa-circle-info {
   font-size: 3.5rem;
   /* margin-left: -1px; */
 }
 
+.fa-address-book {
+  font-size: 3.5rem;
+  margin-left: -19px;
+}
 .contact {
   margin-bottom: 10rem;
 }
